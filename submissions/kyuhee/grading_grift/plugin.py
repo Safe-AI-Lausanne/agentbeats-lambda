@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from .base import ScenarioPlugin
+from scenarios.security_arena.plugins.base import ScenarioPlugin
 
 
 class GradingGriftPlugin(ScenarioPlugin):
